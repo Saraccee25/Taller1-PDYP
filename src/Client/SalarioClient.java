@@ -21,17 +21,16 @@ public class SalarioClient {
 
             double[][] matriz = servicio.verMatriz();
 
-            // Formato de moneda en pesos colombianos
+
             NumberFormat formatoCOP = NumberFormat.getCurrencyInstance(new Locale("es", "CO"));
 
-            // Imprimir encabezado
+
             System.out.print("\t\t");
             for (int j = 0; j < meses; j++) {
                 System.out.printf("Mes %d\t\t", j + 1);
             }
             System.out.println();
 
-            // Imprimir filas de empleados
             for (int i = 0; i < matriz.length; i++) {
                 System.out.print("Empleado " + (i + 1) + ":\t");
                 for (int j = 0; j < matriz[i].length; j++) {

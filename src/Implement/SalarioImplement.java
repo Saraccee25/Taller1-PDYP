@@ -22,7 +22,7 @@ public class SalarioImplement extends UnicastRemoteObject implements SalarioInte
 
         for (int i = 0; i < empleados; i++) {
             for (int j = 0; j < meses; j++) {
-                matriz[i][j] = 1000 + Math.random() * 9000; // salarios aleatorios entre 1000 y 10000
+                matriz[i][j] = 1000 + Math.random() * 9000;
             }
         }
     }
