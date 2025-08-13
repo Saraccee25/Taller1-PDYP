@@ -2,6 +2,8 @@ package Client;
 
 import Interface.SalarioInterface;
 import java.rmi.Naming;
+import java.util.Locale;
+import java.text.NumberFormat;
 import java.util.Scanner;
 
 public class SalarioClient {
@@ -19,10 +21,13 @@ public class SalarioClient {
 
             double[][] matriz = servicio.verMatriz();
 
+            // Formato de moneda en pesos colombianos
+            NumberFormat formatoCOP = NumberFormat.getCurrencyInstance(new Locale("es", "CO"));
+
             // Imprimir encabezado
-            System.out.print("\t\t"); 
+            System.out.print("\t\t");
             for (int j = 0; j < meses; j++) {
-                System.out.printf("Mes %d\t", j + 1);
+                System.out.printf("Mes %d\t\t", j + 1);
             }
             System.out.println();
 
@@ -30,7 +35,7 @@ public class SalarioClient {
             for (int i = 0; i < matriz.length; i++) {
                 System.out.print("Empleado " + (i + 1) + ":\t");
                 for (int j = 0; j < matriz[i].length; j++) {
-                    System.out.printf("%.2f\t", matriz[i][j]);
+                    System.out.print(formatoCOP.format(matriz[i][j]) + "\t");
                 }
                 System.out.println();
             }
@@ -41,15 +46,15 @@ public class SalarioClient {
 
             System.out.println("\n--- Total pagado por empleado ---");
             for (int i = 0; i < totales.length; i++) {
-                System.out.printf("Empleado %d: %.2f\n", i + 1, totales[i]);
+                System.out.println("Empleado " + (i + 1) + ": " + formatoCOP.format(totales[i]));
             }
 
             System.out.println("\n--- Promedio pagado por mes ---");
             for (int i = 0; i < promedios.length; i++) {
-                System.out.printf("Mes %d: %.2f\n", i + 1, promedios[i]);
+                System.out.println("Mes " + (i + 1) + ": " + formatoCOP.format(promedios[i]));
             }
 
-            System.out.printf("\nTotal general pagado: %.2f\n", totalGeneral);
+            System.out.println("\nTotal general pagado: " + formatoCOP.format(totalGeneral));
 
         } catch (Exception e) {
             e.printStackTrace();
