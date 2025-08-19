@@ -8,6 +8,10 @@ public interface SalarioInterface extends Remote {
     double[] totalPorEmpleado() throws RemoteException;
     double[] promedioPorMes() throws RemoteException;
     double totalGeneral() throws RemoteException;
-    double[][] verMatriz() throws RemoteException; 
+    double[][] verMatriz() throws RemoteException;
+
+    boolean autenticar(String usuario, String clave) throws RemoteException;
+    void cerrarSesion() throws RemoteException;
+
 }
 

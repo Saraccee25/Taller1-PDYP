@@ -1,0 +1,70 @@
+ago 19, 2025 1:37:22 P. M. Implement.SalarioImplement log
+INFO: [192.168.1.107] AUTENTICACIÓN FALLIDA para usuario=sara
+ago 19, 2025 1:37:42 P. M. Implement.SalarioImplement log
+INFO: [192.168.1.107] AUTENTICACIÓN OK para usuario=user
+ago 19, 2025 1:37:46 P. M. Implement.SalarioImplement log
+INFO: [192.168.1.107] llenarMatriz(empleados=3, meses=2)
+ago 19, 2025 1:37:46 P. M. Implement.SalarioImplement log
+INFO: [192.168.1.107] verMatriz()
+ago 19, 2025 1:37:46 P. M. Implement.SalarioImplement log
+INFO: [192.168.1.107] totalPorEmpleado()
+ago 19, 2025 1:37:46 P. M. Implement.SalarioImplement log
+INFO: [192.168.1.107] promedioPorMes()
+ago 19, 2025 1:37:46 P. M. Implement.SalarioImplement log
+INFO: [192.168.1.107] totalGeneral()
+ago 19, 2025 1:37:46 P. M. Implement.SalarioImplement log
+INFO: [192.168.1.107] CERRAR SESIÓN
+ago 19, 2025 1:39:17 P. M. Implement.SalarioImplement log
+INFO: [192.168.1.107] AUTENTICACIÓN FALLIDA para usuario=sara
+ago 19, 2025 1:39:32 P. M. Implement.SalarioImplement log
+INFO: [192.168.1.107] AUTENTICACIÓN OK para usuario=user
+ago 19, 2025 1:39:37 P. M. Implement.SalarioImplement log
+INFO: [192.168.1.107] llenarMatriz(empleados=4, meses=3)
+ago 19, 2025 1:39:37 P. M. Implement.SalarioImplement log
+INFO: [192.168.1.107] verMatriz()
+ago 19, 2025 1:39:37 P. M. Implement.SalarioImplement log
+INFO: [192.168.1.107] totalPorEmpleado()
+ago 19, 2025 1:39:37 P. M. Implement.SalarioImplement log
+INFO: [192.168.1.107] promedioPorMes()
+ago 19, 2025 1:39:37 P. M. Implement.SalarioImplement log
+INFO: [192.168.1.107] totalGeneral()
+ago 19, 2025 1:39:37 P. M. Implement.SalarioImplement log
+INFO: [192.168.1.107] CERRAR SESIÓN
+ago 19, 2025 1:44:20 P. M. Implement.SalarioImplement log
+INFO: [192.168.1.107] AUTENTICACIÓN FALLIDA intento=1 para usuario=qahhj
+ago 19, 2025 1:44:20 P. M. Implement.SalarioImplement log
+INFO: [192.168.1.107] AUTENTICACIÓN FALLIDA intento=2 para usuario=qahhj
+ago 19, 2025 1:44:20 P. M. Implement.SalarioImplement log
+INFO: [192.168.1.107] AUTENTICACIÓN FALLIDA intento=3 para usuario=qahhj
+ago 19, 2025 1:44:20 P. M. Implement.SalarioImplement log
+INFO: [192.168.1.107] USUARIO BLOQUEADO por demasiados intentos fallidos (qahhj)
+ago 19, 2025 1:47:47 P. M. Implement.SalarioImplement log
+INFO: [192.168.1.107] AUTENTICACIÓN FALLIDA intento=1 para usuario=cccccccccccccc
+ago 19, 2025 1:47:47 P. M. Implement.SalarioImplement log
+INFO: [192.168.1.107] AUTENTICACIÓN FALLIDA intento=2 para usuario=cccccccccccccc
+ago 19, 2025 1:47:47 P. M. Implement.SalarioImplement log
+INFO: [192.168.1.107] AUTENTICACIÓN FALLIDA intento=3 para usuario=cccccccccccccc
+ago 19, 2025 1:47:47 P. M. Implement.SalarioImplement log
+INFO: [192.168.1.107] USUARIO BLOQUEADO por demasiados intentos fallidos (cccccccccccccc)
+ago 19, 2025 1:51:49 P. M. Implement.SalarioImplement log
+INFO: [192.168.1.107] AUTENTICACIÓN FALLIDA intento=1 para usuario=arhh
+ago 19, 2025 1:51:49 P. M. Implement.SalarioImplement log
+INFO: [192.168.1.107] AUTENTICACIÓN FALLIDA intento=2 para usuario=arhh
+ago 19, 2025 1:51:49 P. M. Implement.SalarioImplement log
+INFO: [192.168.1.107] AUTENTICACIÓN FALLIDA intento=3 para usuario=arhh
+ago 19, 2025 1:51:49 P. M. Implement.SalarioImplement log
+INFO: [192.168.1.107] USUARIO BLOQUEADO por demasiados intentos fallidos (arhh)
+ago 19, 2025 1:51:55 P. M. Implement.SalarioImplement log
+INFO: [192.168.1.107] AUTENTICACIÓN OK para usuario=isa
+ago 19, 2025 1:51:59 P. M. Implement.SalarioImplement log
+INFO: [192.168.1.107] llenarMatriz(empleados=34, meses=2)
+ago 19, 2025 1:51:59 P. M. Implement.SalarioImplement log
+INFO: [192.168.1.107] verMatriz()
+ago 19, 2025 1:51:59 P. M. Implement.SalarioImplement log
+INFO: [192.168.1.107] totalPorEmpleado()
+ago 19, 2025 1:51:59 P. M. Implement.SalarioImplement log
+INFO: [192.168.1.107] promedioPorMes()
+ago 19, 2025 1:51:59 P. M. Implement.SalarioImplement log
+INFO: [192.168.1.107] totalGeneral()
+ago 19, 2025 1:51:59 P. M. Implement.SalarioImplement log
+INFO: [192.168.1.107] CERRAR SESIÓN
