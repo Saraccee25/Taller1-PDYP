@@ -20,7 +20,7 @@ public class SalarioImplement extends UnicastRemoteObject implements SalarioInte
     private int empleados;
     private int meses;
 
-    // Credenciales de usuarios permitidos
+
     private final Map<String, String> credenciales = Map.of(
             "admin", "1234",
             "user", "pass",
@@ -28,10 +28,9 @@ public class SalarioImplement extends UnicastRemoteObject implements SalarioInte
             "sara", "1234"
     );
 
-    // Hosts autenticados
+
     private final Set<String> hostsAutenticados = ConcurrentHashMap.newKeySet();
 
-    // Logger centralizado
     private static final Logger LOGGER = Logger.getLogger(SalarioImplement.class.getName());
 
     public SalarioImplement() throws RemoteException {
@@ -39,7 +38,7 @@ public class SalarioImplement extends UnicastRemoteObject implements SalarioInte
         configurarLogger();
     }
 
-    // ----------------- LOGGER -----------------
+
     private void configurarLogger() {
         try {
             FileHandler fh = new FileHandler("server_rmi.log", true); // modo append
@@ -65,7 +64,7 @@ public class SalarioImplement extends UnicastRemoteObject implements SalarioInte
         LOGGER.info("[" + host + "] " + mensaje);
     }
 
-    // ----------------- SEGURIDAD -----------------
+
     private void exigirAutenticado() throws RemoteException {
         String host = hostCliente();
         if (!hostsAutenticados.contains(host)) {
@@ -106,7 +105,7 @@ public class SalarioImplement extends UnicastRemoteObject implements SalarioInte
         log("CERRAR SESIÓN");
     }
 
-    // ----------------- LÓGICA DE NEGOCIO -----------------
+
     @Override
     public void llenarMatriz(int empleados, int meses) throws RemoteException {
         exigirAutenticado();
